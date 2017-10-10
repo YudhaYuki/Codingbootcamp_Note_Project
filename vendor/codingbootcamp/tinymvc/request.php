@@ -9,11 +9,11 @@ class request
     {
         if (isset($_REQUEST[$name]))
         {
-            echo $_REQUEST[$name]; // echo or whatever way we use it
+            return $_REQUEST[$name]; // echo or whatever way we use it
         }
         else
         {
-            echo $default; // null or whatever the value should be if the key is not found
+            return $default; // null or whatever the value should be if the key is not found
         }
     }
 }

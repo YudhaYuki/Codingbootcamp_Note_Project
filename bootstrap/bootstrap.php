@@ -4,9 +4,15 @@
 // Define the system directory
 define ('SYSTEM_DIR', __DIR__ . '/..'); // system directory
 
+define ('APP_DIR', SYSTEM_DIR . '/app'); // public directory
+
 define ('PUBLIC_DIR', SYSTEM_DIR . '/public'); // public directory
 
+define ('ROUTES_DIR', SYSTEM_DIR . '/routes'); // Route definitions directory
+
 define ('VENDOR_DIR', SYSTEM_DIR . '/vendor'); // vendor directory
+
+
 
 
 // from https://classes.codingbootcamp.cz/coding-bootcamp/autumn-2017/518- last task
